@@ -1,0 +1,113 @@
+body{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./images/wallhaven-lyqr9y.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+#myH1{
+    margin-left: 330px;
+    font-family: cursive, monospace;
+    font-size: 1rem;
+    margin-top: 50px;
+    color: hsl(0, 0%, 0%);
+    font-weight: bold;
+}
+
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 50px;
+    border: none;
+    padding: 30px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+    max-width: 48vh;
+}
+
+
+
+#display{
+    font-size: 8vh;
+    font-family: cursive, monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 0%);
+    text-shadow: 0px 4px 5px rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+
+
+
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    min-width: 50px;
+    border-radius: 150px;
+    cursor: pointer;
+    color: white;
+    padding: 15px;
+    margin: 2px;
+    transition: background-color 0.5s ease;
+}
+
+
+
+#startBtn{
+    background-color: #28a745;
+    box-shadow:0 4px 5px #28a745;
+}
+
+#startBtn:hover
+{
+    background-color: #218838;
+}
+
+#startBtn:active
+{
+    background-color: #22943a;
+}
+
+
+
+#stopBtn{
+    background-color: #a71d2a;
+    box-shadow:0 4px 5px #a71d2a;
+}
+
+#stopBtn:hover
+{
+    background-color: #d61c2f;
+}
+
+#stopBtn:active
+{
+    background-color: #bc1d2d;
+}
+
+
+
+#resetBtn{
+    background-color: #6c757d;
+    box-shadow:0 4px 5px #6c757d
+}
+
+#resetBtn:hover{
+    background-color: #5a6268;
+}
+
+#resetBtn:active
+{
+    background-color: #70777d;
+}
